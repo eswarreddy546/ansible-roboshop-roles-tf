@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-{{ env }}.eswar.xyz  # mongodb-dev.daws86s.fun
+REDIS_HOST: redis-{{ env }}.eswar.xyz 
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.eswar.xyz 
+CART_HOST: cart.backend-alb-{{ env }}.eswar.xyz 
+USER_HOST: user.backend-alb-{{ env }}.eswar.xyz 
+RABBITMQ_HOST: rabbitmq-{{ env }}.eswar.xyz 
+MYSQL_HOST: mysql-{{ env }}.eswar.xyz 
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.eswar.xyz 
+PAYMENT_HOST: payment.backend-alb-{{ env }}.eswar.xyz 
